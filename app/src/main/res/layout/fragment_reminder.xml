@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="csc4360.finalproject.ReminderFragment">
+
+    <ListView
+        android:id="@+id/notes_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#86e0b3"
+        android:dividerHeight="@dimen/dp1"
+        android:drawSelectorOnTop="false"
+        android:focusable="false" />
+
+    <csc4360.finalproject.custom.ExTextView
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/empty_list_message"
+        android:textColor="#000000"
+        android:textSize="@dimen/sp18"/>
+
+</FrameLayout>

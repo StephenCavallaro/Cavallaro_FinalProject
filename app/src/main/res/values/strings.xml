@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CSC4360.FINALPROJECT</string>
+
+    <string name="dialog_text">Release this note/reminder?</string>
+    <string name="btn_yes">Yes!</string>
+    <string name="btn_no">No, not yet!</string>
+
+    <string name="alert_add">created</string>
+    <string name="alert_update">updated</string>
+    <string name="alert_delete">deleted</string>
+    <string name="empty">Nothing is here! Why?</string>
+    <string name="detail_hint">Type words</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_delete">DELETE</string>
+
+    <string name="reminder_frag_title">Notes w/ Alerts</string>
+    <string name="all_frag_title">Notes</string>
+    <string name="empty_list_message">Nothing is here! Why?</string>
+    <string name="menu_delete">Delete</string>
+
+
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+</resources>

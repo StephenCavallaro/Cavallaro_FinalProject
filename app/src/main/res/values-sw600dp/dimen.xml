@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Genral size in dp -->
+
+    <dimen name="dp1">1.5dp</dimen>
+    <dimen name="dp2">3dp</dimen>
+    <dimen name="dp5">15dp</dimen>
+    <dimen name="dp8">12dp</dimen>
+    <dimen name="dp10">15dp</dimen>
+    <dimen name="dp16">24dp</dimen>
+    <dimen name="dp29">43.5dp</dimen>
+    <dimen name="dp45">67.5dp</dimen>
+    <dimen name="dp145">217.5dp</dimen>
+    <dimen name="dp200">300dp</dimen>
+    <!-- font sizes -->
+
+    <dimen name="sp13">19.5sp</dimen>
+    <dimen name="sp15">22.5sp</dimen>
+    <dimen name="sp18">27sp</dimen>
+
+    <!-- font sizes End -->
+
+</resources>
