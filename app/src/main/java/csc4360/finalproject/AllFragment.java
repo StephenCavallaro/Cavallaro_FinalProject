@@ -88,6 +88,7 @@ public class AllFragment extends Fragment {
         // If there are no notes then show this view
         // Which holds a warning message
         notesList.setEmptyView(tvEmpty);
+        // Acts like checkboxes
         // Set the listView mode to select multiple: so now we can select multiple items
         // in the list view at the same time
         notesList.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE_MODAL);
@@ -122,10 +123,10 @@ public class AllFragment extends Fragment {
                 switch (item.getItemId()) {
                     case R.id.delete:
                         AlertDialog dialog = new AlertDialog.Builder(getActivity())
-                                .setTitle("Confirm")
-                                .setMessage("Delete all selected records?")
+                                .setTitle("WARNING")
+                                .setMessage("Are you sure you want to say goodbye to these items?")
                                 .setCancelable(true)
-                                .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
+                                .setPositiveButton("Sure", new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
                                         // Calls getSelectedIds method from ListViewAdapter Class
@@ -141,9 +142,9 @@ public class AllFragment extends Fragment {
                                             }
                                         }
                                         mode.finish();
-                                        Toast.makeText(getActivity(), "Note(s) deleted successfully", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(getActivity(), "Congrats! All Selected Notes Deleted", Toast.LENGTH_SHORT).show();
                                     }
-                                }).setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                                }).setNegativeButton("Naw", new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
                                         dialog.cancel();

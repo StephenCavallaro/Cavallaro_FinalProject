@@ -9,7 +9,7 @@
         android:id="@+id/notes_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="#86e0b3"
+        android:divider="#02ff4e"
         android:dividerHeight="@dimen/dp1"
         android:drawSelectorOnTop="false"
         android:focusable="false" />
