@@ -6,10 +6,8 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
-
 import csc4360.finalproject.data.DatabaseHelper;
 import csc4360.finalproject.model.Note;
-
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

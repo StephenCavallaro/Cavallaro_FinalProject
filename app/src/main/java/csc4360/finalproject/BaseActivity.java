@@ -1,7 +1,7 @@
 package csc4360.finalproject;
 
 /**
- * Created by steph on 4/10/2017.
+ * Created by stephen 4/10/2017.
  */
 
 

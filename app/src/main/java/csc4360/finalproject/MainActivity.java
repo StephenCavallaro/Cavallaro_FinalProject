@@ -64,11 +64,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    /**
-     * Initialize view pager
-     *
-     * @param effect: animation
-     */
+    //Initialize view pager. The parameter effect is for animation
     private void setupJazziness(JazzyViewPager.TransitionEffect effect) {
         mJazzy.setTransitionEffect(effect);
         pagerAdapter = new FixedTabsPagerAdapter(getSupportFragmentManager());
